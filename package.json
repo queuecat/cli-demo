@@ -1,0 +1,32 @@
+{
+  "name": "cli-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "demo-cli": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queuecat/cli-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/queuecat/cli-demo/issues"
+  },
+  "homepage": "https://github.com/queuecat/cli-demo#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.0.1",
+    "shelljs": "^0.8.4"
+  }
+}
